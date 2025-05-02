@@ -1,6 +1,6 @@
 # Automate mailbox archive expansion
 
-$myEmailAddress = "o-pgeorgiadis@deloitte.onmicrosoft.com"
+$myEmailAddress = "o-skaragiannis@deloitte.onmicrosoft.com"
 $emailFilePath = "C:\MyScripts\UserEmailAddress.txt"
 $userEmailAddress = Get-Content -Path $emailFilePath | Select-Object -First 1
 $username = $userEmailAddress.Split('@')[0]
